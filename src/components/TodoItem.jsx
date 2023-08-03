@@ -16,7 +16,7 @@ const TodoItem = ({ todo }) => {
 
   return (
     <div className="text-white flex items-center justify-between">
-      <div class="w-full flex items-center justify-between px-4 py-2 border border-slate-500 rounded hover:border-slate-300 transition ease-in-out">
+      <div className="w-full flex items-center justify-between px-4 py-2 border border-slate-500 rounded hover:border-slate-300 transition ease-in-out">
         <div className="flex items-center gap-1">
           <input
             id={todo.id}
